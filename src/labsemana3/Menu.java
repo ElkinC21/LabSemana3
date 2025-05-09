@@ -93,7 +93,7 @@ public class Menu {
         } else {
             System.out.println(largo+ " NO es palíndromo.");
         }
-     
+      break;
 
                         
                 //Opcion 2 numero perfecto
