@@ -114,9 +114,43 @@ public class Menu {
                     break;
                //
                 case 4:
-                    System.out.println("Ingrese cuantos votantes hay en el pais: ");
+                    
+                   int votosazul=0; 
+                   int votosrojos=0;
+                   int votosamarillo=0;
+                   int votosnegro=0;
+                   int votosnulo=0;
+                   System.out.println("Ingrese cuantos votantes hay en el pais: ");
                     int votantes=lea.nextInt();
-                     
+                    int repes=1;
+                    System.out.println("-------Boleta de votos-------");
+                    System.out.println("AZUL");
+                    System.out.println("ROJO");
+                    System.out.println("NEGRO"); 
+                    System.out.println("AMARILLO");
+                    
+                    
+                    while(repes<=votantes){
+                        System.out.println("Numero de votante: "+repes+" ingrese su voto: ");
+                        String voto=lea.nextLine();
+                        voto=voto.toUpperCase();
+                        
+                      switch(voto){  
+                        case "AZUL":
+                        votosazul++;
+                      break;
+                        case "ROJO":
+                            votosrojos++;
+                            break;
+                        case "AMARILLO":
+                            votosamarillo++;
+                          break;
+                        case "NEGRO" :
+                            votosnegro++;
+                        default:
+                      
+                      }
+                    }
             }
             
         }
