@@ -218,9 +218,10 @@ public class Menu {
                     System.out.println("A ingresado "+vecesopcion2+"veces a la opcion 2");
             System.out.println("A ingresado "+vecesopcion3+"veces a la opcion 3"); 
                     System.out.println("A ingresado "+vecesopcion4+"veces a la opcion 4");
+             break;
             }
-
-        }
+      break;
+        } 
 
     }
 }
