@@ -51,7 +51,7 @@ public class Menu {
             int len = palabra.length();
 
            
-            System.out.print("Palabra al revés: ");
+            System.out.print("Palabra al reves: ");
             int j = len - 1;
             while (j >= 0) {
                 System.out.print(palabra.charAt(j));
@@ -71,9 +71,9 @@ public class Menu {
             rep++;
         }
 
-        System.out.print("La palabra más larga tiene longitud " + max + ": " + largo);
+        System.out.print("La palabra mas larga tiene " + max + "caracteres: " + largo);
         if (cuentalarga > 1) {
-            System.out.print(" (y hubo " + (cuentalarga - 1) + " otra(s) de igual longitud)");
+            System.out.print(" (y hubo " + (cuentalarga - 1) + " otras de igual longitud)");
         }
         System.out.println();
 
@@ -89,7 +89,7 @@ public class Menu {
         }
 
         if (espalin) {
-            System.out.println(largo + " SÍ es palíndromo.");
+            System.out.println(largo + " Si es palindromo.");
         } else {
             System.out.println(largo+ " NO es palíndromo.");
         }
@@ -121,7 +121,7 @@ public class Menu {
                       vecesopcion3++;  
                     Random rnd = new Random();
                     int numero = rnd.nextInt(100) + 1;
-                    System.out.println("Número generado: " + numero);
+                    System.out.println("Numero generado: " + numero);
 
                     boolean primo = numero > 1;
                     for (int p = 2; p < numero && primo; p++) {
@@ -214,10 +214,10 @@ public class Menu {
                     
                    break;
                 case 5:
-                    System.out.println("A ingresado "+vecesopcion1+"veces a la opcion 1"); 
-                    System.out.println("A ingresado "+vecesopcion2+"veces a la opcion 2");
-            System.out.println("A ingresado "+vecesopcion3+"veces a la opcion 3"); 
-                    System.out.println("A ingresado "+vecesopcion4+"veces a la opcion 4");
+                    System.out.println("A ingresado "+vecesopcion1+" veces a la opcion 1"); 
+                    System.out.println("A ingresado "+vecesopcion2+" veces a la opcion 2");
+            System.out.println("A ingresado "+vecesopcion3+" veces a la opcion 3"); 
+                    System.out.println("A ingresado "+vecesopcion4+" veces a la opcion 4");
              break;
             }
       break;
