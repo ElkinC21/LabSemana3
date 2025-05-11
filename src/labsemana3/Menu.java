@@ -21,7 +21,8 @@ public class Menu {
         int vecesopcion2=0;
         int vecesopcion3=0;
         int vecesopcion4=0;
-        while (true) {
+        int opcion=0;
+        while (opcion!=5) {
             System.out.println("----------Bienvenido---------");
             System.out.println("1.Palabra al reves");
             System.out.println("2.Numero perfecto");
@@ -29,7 +30,7 @@ public class Menu {
             System.out.println("4.Votaciones");
             System.out.println("5.Salir");
             System.out.print("Ingrese opcion: ");
-            int opcion = lea.nextInt();
+             opcion = lea.nextInt();
             lea.nextLine();
             // Dependiendo la opcion
             switch (opcion) {
@@ -220,7 +221,7 @@ public class Menu {
                     System.out.println("A ingresado "+vecesopcion4+" veces a la opcion 4");
              break;
             }
-      break;
+      
         } 
 
     }
